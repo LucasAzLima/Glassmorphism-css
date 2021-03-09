@@ -1,0 +1,177 @@
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: rgba(5, 5, 80, 0.637);
+}
+
+.nubank-card {
+  position: relative;
+  width: 400px;
+  height: 240px;
+  transform-style: preserve-3d;
+  perspective: 500px;
+  z-index: 2;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.nubank-card .face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  box-shadow: 5px 6px 6px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  background: rgb(94, 27, 133);
+  transform-style: preserve-3d;
+  transition: 1s;
+  backface-visibility: hidden;
+}
+
+.nubank-card:hover .face.front {
+  transform: rotateY(180deg);
+}
+
+.nubank-card .face.back {
+  transform: rotateY(180deg);
+}
+
+.nubank-card:hover .face.back {
+  transform: rotateY(360deg);
+}
+
+.face.back .faixa {
+  background: rgb(224, 224, 224);
+  width: 100%;
+  height: 50px;
+  margin-top: 10px;
+}
+.nubank-card .face.front::before {
+  width: 50px;
+  height: 50px;
+  background: orange;
+  top: 10px;
+  right: 10px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.nubank-card .face.front::after {
+  width: 50px;
+  height: 50px;
+  background: red;
+  top: 10px;
+  right: 45px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.nubank-card .face.front .master {
+  width: 70px;
+  height: 100px;
+  top: 45px;
+  right: 25px;
+  position: absolute;
+  color: white;
+  font-family: "system-ui";
+}
+
+.nubank-card .face.front .logo {
+  width: 70px;
+  height: 100px;
+  top: 140px;
+  left: 30px;
+  position: absolute;
+}
+
+.nubank-card .face.front .name {
+  top: 170px;
+  left: 120px;
+  position: absolute;
+  font-size: 16px;
+  color: white;
+}
+.nubank-card .face.front .chip {
+  width: 70px;
+  height: 100px;
+  top: 50px;
+  left: 30px;
+  position: absolute;
+}
+
+.nubank-card .face.front .signal {
+  width: 45px;
+  height: 25px;
+  top: 90px;
+  left: 100px;
+  position: absolute;
+}
+
+.nubank-card .face.back::before {
+  width: 40px;
+  height: 40px;
+  background: blue;
+  bottom: 25px;
+  right: 10px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.9;
+}
+
+.nubank-card .face.back::after {
+  width: 40px;
+  height: 40px;
+  background: deepskyblue;
+  bottom: 25px;
+  right: 35px;
+  content: "";
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.7;
+}
+
+.nubank-card .face.back .cirrus {
+  color: white;
+  bottom: 0;
+  right: 30px;
+  position: absolute;
+  font-family: "system-ui";
+  font-size: 12px;
+}
+
+.nubank-card .face.back .numeros {
+  display: flex;
+  width: 150px;
+  justify-content: space-between;
+  top: 170px;
+  left: 30px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+
+.nubank-card .face.back .datas {
+  display: flex;
+  width: 120px;
+  justify-content: space-between;
+  top: 195px;
+  left: 45px;
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+
+.nubank-card .face.back .chip2 {
+    width: 130px;
+    height: 160px;
+    top: 50px;
+    left: 5px;
+    position: absolute;
+  }

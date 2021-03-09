@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="512pt"
+   viewBox="-71 0 512 512"
+   width="512pt"
+   version="1.1"
+   id="svg935"
+   sodipodi:docname="chip2.svg"
+   inkscape:version="1.0.1 (0767f8302a, 2020-10-17)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1366"
+     inkscape:window-height="713"
+     id="namedview11"
+     showgrid="false"
+     inkscape:zoom="0.85546875"
+     inkscape:cx="309.18721"
+     inkscape:cy="294.57534"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg935" />
+  <metadata
+     id="metadata941">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs939" />
+  <path
+     id="path12"
+     style="fill:#c1c1c1;fill-rule:evenodd;stroke-width:0.795407;fill-opacity:1"
+     d="M 240.51953 175.32422 A 120.23484 119.22248 0 0 0 120.28516 294.54688 A 120.23484 119.22248 0 0 0 230.58008 413.36133 L 230.58008 414.67969 L 378.69531 414.67969 A 120.23484 119.22248 0 0 0 391.24219 415.33203 A 120.23484 119.22248 0 0 0 511.47656 296.10938 A 120.23484 119.22248 0 0 0 401.36328 177.31055 L 401.36328 176.57812 L 257.9043 176.57812 A 120.23484 119.22248 0 0 0 240.51953 175.32422 z "
+     transform="matrix(0.74999998,0,0,0.74999998,-71,0)" />
+  <path
+     id="path31"
+     style="fill:#878787;fill-rule:evenodd;stroke-width:1.08826;fill-opacity:0.6194281"
+     d="m 278.68679,218.34593 a 54.207844,51.841206 0 0 1 -54.20784,51.8412 54.207844,51.841206 0 0 1 -54.20785,-51.8412 54.207844,51.841206 0 0 1 54.20785,-51.84121 54.207844,51.841206 0 0 1 54.20784,51.84121 z" />
+  <path
+     id="path35"
+     style="display:inline;fill:#ababab;fill-rule:evenodd;stroke-width:0.698714;fill-opacity:1"
+     d="m 97.478605,132.48193 a 78.265037,89.416857 0 0 0 -78.264738,89.41699 78.265037,89.416857 0 0 0 71.794802,89.11084 v 0.98877 h 87.935941 a 103.69454,154.46443 0 0 0 22.48014,-96.03808 103.69454,154.46443 0 0 0 -16.0458,-82.53809 h -76.584 a 78.265037,89.416857 0 0 0 -11.316345,-0.94043 z" />
+</svg>
